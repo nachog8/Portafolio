@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ignacio Guridi. Web Developer's portafolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://kit.fontawesome.com/f272ecadae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- MENU -->
+    <header>
+        <nav class="cont-exterior menu">
+            <div class="cont-interior">
+                <div class="cont_menu">
+                <div class="menu_logo">
+                    <p><a href="/">I.G.&nbsp;Portafolio</a></p>
+                </div>
+                <div class="menu_redes redes">
+                    <a href="https://www.linkedin.com/in/guridi-ignacio/" target="_blank">
+                        <i class="fa fa-linkedin-square icon" aria-hidden="true" alt="Linkedin"></i>
+                    </a>
+                    <a href="https://github.com/nachog8" target="_blank">
+                        <i class="fa fa-github-square icon" aria-hidden="true" alt="GitHub"></i>
+                    </a>
+                    <a href="https://www.instagram.com/nachog8/" target="_blank">
+                        <i class="fa-brands fa-instagram icon" aria-hidden="true" alt="Instagram"></i>
+                    </a>
+                </div>
+                <div class="menu_categorias">
+                    <ul>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#tecnologias">Tecnologias</a></li>
+                        <li><a href="#sobre-mi">Sobre mi</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- / MENU -->
+    <main class="main-flex">
+      <!-- HERO -->
+      <section id="hero" class="cont-exterior hero">
+        <div class="cont-interior">
+          <div class="cont_hero">
+            <h1 class="hero_titulo">
+              <span>Hola, soy Ignacio,</span><br /> frontend developer
+            </h1>
+            <p class="hero_desc plain-text">
+                Desarrollador web con experiencia en el desarrollo de aplicaciones web, 
+                con conocimientos en tecnologias como HTML, CSS, JavaScript, React, 
+                Angular, Node, MongoDB, MySQL, entre otras.
+            </p>
+            <div class="hero_foto">
+              <img src="img/img_nacho.jpg" alt="Ignacio Guridi Foto" />
+            </div>
+            <a
+              class="hero_button button"
+              href="CV Ignacio Guridi Desarrollador Web.pdf"
+              download
+              ><div>Descargar CV</div></a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- / HERO -->
+      <!-- PROYECTOS -->
+      <section id="proyectos" class="cont-exterior proyectos">
+        <div class="cont-interior">
+          <h2 class="proyectos_titulo section-titulo">Proyectos</h2>
+          <div class="cont_proyectos section-content">
+            <div class="proyectos_proyecto proyecto">
+              <div class="proyecto_content">
+                <div class="proyecto_cont">
+                  <div class="proyecto_imagen">
+                    <img
+                      src="img/proyectos/conectando-saberes.png"
+                      alt="Conectando Saberes' Exposicion de carreras Universitarias"
+                    />
+                  </div>
+                  <div class="proyecto_text-content">
+                    <h3 class="proyecto_header">
+                      Conectando Saberes (Proyecto Municipal)
+                    </h3>
+                    <p class="proyecto_texto plain-text">
+                      Proyecto dedicada a conectar a los vecinos y vecinas con todas 
+                      las propuestas que 16 instituciones académicas de educación superior. 
+                      Utilizamos tecnologías como HTML, Angular, Node, SCSS, TypeScript, Java.
+                    </p>
+                  </div>
+                  <div class="proyecto_opc">
+                    <a
+                      class="proyecto_button proyecto_button_l button"
+                      href="https://conectandosaberes.villamaria.gob.ar/"
+                      target="_blank"
+                      ><div>Visitar web</div></a
+                    >
+                    <a
+                      class="proyecto_button proyecto_button_r button"
+                      href="https://github.com/utn-conectando-saberes"
+                      target="_blank"
+                      ><div>GitHub</div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proyectos_proyecto proyecto">
+              <div class="proyecto_content">
+                <div class="proyecto_cont">
+                  <div class="proyecto_imagen">
+                    <img
+                      src="img/proyectos/JuniorCoderBook.png"
+                      alt="JuniorCoderBook - Red Social para Juniors Developers"
+                    />
+                  </div>
+                  <div class="proyecto_text-content">
+                    <h3 class="proyecto_header">
+                        JuniorCoderBook (Proyecto NoCountry)
+                    </h3>
+                    <p class="proyecto_texto plain-text">
+                      Red social para juniors developers. Comparti tus notas, 
+                      con otros desarrolladores y estudiantes. Utilizamos tecnologias 
+                      como React, Axios, Express, Node, SCSS.
+                    </p>
+                  </div>
+                  <div class="proyecto_opc">
+                    <a
+                      class="proyecto_button proyecto_button_r button"
+                      href="https://github.com/nachog8/JuniorCoderBook"
+                      target="_blank"
+                      ><div>GitHub</div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proyectos_proyecto proyecto">
+              <div class="proyecto_content">
+                <div class="proyecto_cont">
+                  <div class="proyecto_imagen">
+                    <img
+                      src="img/proyectos/daw.png"
+                      alt="Vintage bikes store landing page screenshot"
+                    />
+                  </div>
+                  <div class="proyecto_text-content">
+                    <h3 class="proyecto_header">
+                      Daw Reservas (Proyecto de universidad)
+                    </h3>
+                    <p class="proyecto_texto plain-text">
+                      Sistemas de reservas de espacio para la Universidad Tecnologica Nacional.
+                      Utilizamos tecnologias como Angular, Node, Spring Boot, TypeScript, Java.
+                    </p>
+                  </div>
+                  <div class="proyecto_opc">
+                    <a
+                      class="proyecto_button proyecto_button_r button"
+                      href="https://github.com/yarmoiseev/frontend_lp_bikes"
+                      target="_blank"
+                      ><div>GitHub</div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proyectos_proyecto proyecto">
+              <div class="proyecto_content">
+                <div class="proyecto_cont">
+                  <div class="proyecto_imagen">
+                    <img
+                      src="img/proyectos/copa_america.png"
+                      alt="Regresion logistica con dataset oficial de la Copa America"
+                    />
+                  </div>
+                  <div class="proyecto_text-content">
+                    <h3 class="proyecto_header">
+                      Regresion logica (Proyecto de universidad)
+                    </h3>
+                    <p class="proyecto_texto plain-text">
+                      Regresion logistica con dataset oficial de la Copa America, 
+                      para predecir los resultados de la copa. Utilizamos tecnologia 
+                      Jupiter Notebook, Python, Pandas, Numpy, Matplotlib.
+                    </p>
+                  </div>
+                  <div class="proyecto_opc">
+                    <a
+                      class="proyecto_button proyecto_button_r button"
+                      href="https://github.com/nachog8/Regresion-Logistica-Copa-America"
+                      target="_blank"
+                      ><div>GitHub</div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proyectos_proyecto proyecto">
+              <div class="proyecto_content">
+                <div class="proyecto_cont">
+                  <div class="proyecto_imagen">
+                    <img
+                      src="img/proyectos/intranoc.png"
+                      alt="Simple survey form screenshot"
+                    />
+                  </div>
+                  <div class="proyecto_text-content">
+                    <h3 class="proyecto_header">
+                      IntraNoc (Proyecto NoCountry)
+                    </h3>
+                    <p class="proyecto_texto plain-text">
+                      IntraNoc es una App de Gestión de Equipo de Trabajo.
+                      Utilizamos tecnologias como React, Next.js, Node, TypeScript, Postgresql.
+                    </p>
+                  </div>
+                  <div class="proyecto_opc">
+                    <a
+                      class="proyecto_button proyecto_button_l button"
+                      href="https://www.figma.com/proto/Qns32BvZ8hcT8jxzGil1H6/PROYECTO_S16?node-id=222-824&starting-point-node-id=222%3A824"
+                      target="_blank"
+                      ><div>Vista Previa</div></a
+                    >
+                    <a
+                      class="proyecto_button proyecto_button_r button"
+                      href="https://github.com/nachog8/IntraNoc"
+                      target="_blank"
+                      ><div>GitHub</div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proyectos_proyecto proyecto">
+              <div class="proyecto_content">
+                <div class="proyecto_cont">
+                  <div class="proyecto_imagen">
+                    <img
+                      src="img/proyectos/pert.png"
+                      alt="Tribute page screenshot"
+                    />
+                  </div>
+                  <div class="proyecto_text-content">
+                    <h3 class="proyecto_header">
+                      PertApp (Proyecto de universidad)
+                    </h3>
+                    <p class="proyecto_texto plain-text">
+                      Aplicacion de escritorio para resolver el algoritmo de PERT.
+                      Utilizamos tecnologias como Python, Tkinter.
+                    </p>
+                  </div>
+                  <div class="proyecto_opc">
+                    <a
+                      class="proyecto_button proyecto_button_r button"
+                      href="https://github.com/nachog8/PertApp"
+                      target="_blank"
+                      ><div>GitHub</div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- / proyectos -->
+      <!-- TECNOLOGIAS -->
+      <section id="tecnologias" class="cont-exterior tecno">
+        <div class="cont-interior">
+          <h2 class="tecno_titulo section-titulo">Tecnologias</h2>
+          <div class="cont_tecno section-content">
+            <div class="tecno_tecno-item tecno-item">
+              <div class="tecno-item_desc">
+                <h4 class="tecno-item_titulo">HTML</h4>
+                <p class="tecno-item_nivel">Avanzado</p>
+              </div>
+              <div class="tecno-item_barra-exterior">
+                <div class="tecno-item_barra-interior" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="tecno_tecno-item tecno-item">
+              <div class="tecno-item_desc">
+                <h4 class="tecno-item_titulo">CSS, SASS, Tailwind</h4>
+                <p class="tecno-item_nivel">Avanzado</p>
+              </div>
+              <div class="tecno-item_barra-exterior">
+                <div class="tecno-item_barra-interior" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="tecno_tecno-item tecno-item">
+              <div class="tecno-item_desc">
+                <h4 class="tecno-item_titulo">JavaScript, TypeScript</h4>
+                <p class="tecno-item_nivel">Intermedio</p>
+              </div>
+              <div class="tecno-item_barra-exterior">
+                <div class="tecno-item_barra-interior" style="width: 50%"></div>
+              </div>
+            </div>
+            <div class="tecno_tecno-item tecno-item">
+              <div class="tecno-item_desc">
+                <h4 class="tecno-item_titulo">React, Next.js, Angular</h4>
+                <p class="tecno-item_nivel">Principiante</p>
+              </div>
+              <div class="tecno-item_barra-exterior">
+                <div class="tecno-item_barra-interior" style="width: 25%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- / tecnologia -->
+      <!-- Tecnologias extra -->
+      <section id="extra" class="cont-exterior extra">
+        <div class="cont-interior">
+          <h2 class="extra_titulo section-titulo">
+            Tecnologias y habilidades adicionales
+          </h2>
+          <div class="cont_extra section-content">
+            <ul class="extra_lista-item">
+              <li class="extra_item">Git</li>
+              <li class="extra_item">Npm</li>
+              <li class="extra_item">Figma / Adobe XD</li>
+              <li class="extra_item">Node</li>
+              <li class="extra_item">Java</li>
+              <li class="extra_item">MongoDB</li>
+              <li class="extra_item">Aprendizaje rapido</li>
+              <li class="extra_item">Compromiso</li>
+              <li class="extra_item">Ingles B2</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- / Tecnologias extra -->
+      <!-- Sobre Mi -->
+      <section id="sobre-mi" class="cont-exterior about">
+        <div class="cont-interior">
+          <h2 class="about_titulo section-titulo">Sobre mi</h2>
+          <div class="cont_about section-content">
+            <ul class="about_linea-temporal">
+              <li class="about_item item">
+                <h3 class="item_año">2019</h3>
+                <div class="item_separador"></div>
+                <p class="item_texto">
+                  Me gradue de la secundaria y comence a estudiar Ingenieria en sistemas 
+                  de informacion en la Universidad Tecnologica Nacional de Villa Maria.
+                </p>
+              </li>
+              <li class="about_item item">
+                <h3 class="item_año">2020</h3>
+                <div class="item_separador"></div>
+                <p class="item_texto">
+                  Realicé cursos de Diseño grafico y comencé a trabajar 
+                  como Diseñador en una empresa de nutricion y salud reconocida. 
+                  Después de 6 meses, inicié mi propia práctica freelance.
+                </p>
+              </li>
+              <li class="about_item item">
+                <h3 class="item_año">2021</h3>
+                <div class="item_separador"></div>
+                <p class="item_texto">
+                  Me interesé más en el sector de IT a medida que avazaba en la carrera 
+                  y decidí probar la programación. Completé un curso de frontend y 
+                  trabajé en un proyecto propio.
+                </p>
+              </li>
+              <li class="about_item item">
+                <h3 class="item_año">2024</h3>
+                <div class="item_separador"></div>
+                <p class="item_texto">
+                  Todo este tiempo continue aprendiendo y practicando, 
+                  hasta que me decidi a dedicarme de lleno al desarrollo y 
+                  poder trabajar en proyectos mas grandes y desafiantes.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- / Sobre Mi -->
+    </main>
+    <!-- CONTACTOS -->
+    <footer id="contactos" class="cont-exterior contactos">
+      <div class="cont-interior">
+        <div class="cont_contactos">
+          <span class="contactos_cta">No dude en ponerse en contacto conmigo</span>
+          <span class="contactos_mail"><a href="mailto:nacho_g88@hotmail.com ">nacho_g88@hotmail.com </a></span>
+          <div class="contatos_redes redes">
+            <a href="https://www.linkedin.com/in/guridi-ignacio/" target="_blank">
+                <i class="fa fa-linkedin-square icon" aria-hidden="true" alt="Linkedin"></i>
+            </a>
+            <a href="https://github.com/nachog8" target="_blank">
+                <i class="fa fa-github-square icon" aria-hidden="true" alt="GitHub"></i>
+            </a>
+            <a href="https://www.instagram.com/nachog8/" target="_blank">
+                <i class="fa-brands fa-instagram icon" aria-hidden="true" alt="Instagram"></i>
+            </a>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <!-- / CONTACOS -->
+</body>
+</html>
