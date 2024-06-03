@@ -35,6 +35,8 @@ div,nav,ul {
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  scrollbar-width: thin; /* Para Firefox */
+  scrollbar-color: transparent transparent; /* Para Firefox */
 }
 
 body {
@@ -45,6 +47,11 @@ body {
   font-style: normal;
   background-color: #0f1624;
   color: #fff;
+}
+
+body::-webkit-scrollbar { /* Para Chrome, Safari y Edge */
+  width: 0;
+  height: 0;
 }
 
 .cont-exterior {
@@ -686,4 +693,40 @@ body {
   .contactos_mail {
     order: 3;
   }
+}
+
+.scroll-button {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 43.598px;
+  border: none;
+  background-image: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  box-shadow: 0px 10px 30px 0px rgba(0, 178, 255, 0.35);
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease, transform 0.2s ease;
+}
+
+.scroll-button:hover {
+  background-image: linear-gradient(270deg, #31cbe5 0%, #8796ef 66.67%, #b27bf4 100%);
+  box-shadow: 0px 10px 30px 0px rgba(0, 178, 255, 0.5);
+  transform: scale(1.05);
+}
+
+.scroll-button:active {
+  background-image: linear-gradient(270deg, #008fa9 0%, #4b5ab3 66.67%, #6c35ae 100%);
+  box-shadow: 0px 10px 30px 0px rgba(147, 94, 214, 0.35);
+  transform: scale(0.95);
+}
+
+.scroll-button svg {
+  width: 20px;
+  height: 20px; 
 }
