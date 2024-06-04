@@ -78,21 +78,31 @@ body::-webkit-scrollbar { /* Para Chrome, Safari y Edge */
   justify-content: space-between;
   align-items: center;
 }
-.redes > a, .redes i {
+.redes > a {
+  position: relative;
+  display: inline-block;
   width: 30px;
   height: 30px;
 }
 
-.redes a:hover {
-    color: transparent;
-    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: color 300ms ease-out;
+.redes i {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  transition: color 1s ease;
+}
+
+.redes i:hover {
+  background: linear-gradient(270deg, #13ADC7, #6978D1, #945DD6);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  color: transparent; 
 }
 
 .icon{
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .button div {
