@@ -304,7 +304,12 @@ body::-webkit-scrollbar { /* Para Chrome, Safari y Edge */
   width: 205px;
   border-radius: 50%;
   filter: brightness(1.2) saturate(0%);
+  transition: filter 1s ease-in-out;
 }
+.hero_foto img:hover {
+  filter: brightness(1) saturate(100%);
+}
+
 .hero_foto::before {
   content: "";
   display: block;
