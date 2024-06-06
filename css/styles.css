@@ -258,6 +258,25 @@ body::-webkit-scrollbar { /* Para Chrome, Safari y Edge */
   .menu_categorias ul li a:hover::after {
     transform: scaleX(1);
   }
+  .contactos_mail {
+    position: relative;
+  }
+  .contactos_mail::after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    bottom: -3px;
+    height: 1.99px;
+    background-image: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 2px;
+  }
+  .contactos_mail:hover::after {
+    transform: scaleX(1);
+  }
 }
 
 .hero {
